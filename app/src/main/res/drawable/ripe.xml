@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/_996_hong_tai_chang_shou_pu_erh_2_906x700"
+    android:tileMode="disabled" android:gravity="center" >
+</bitmap>

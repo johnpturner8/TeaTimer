@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:background="@drawable/blackteaxml"
+            android:onClick="startTimerBlack"
+            android:text="@string/black_tea"
+            android:textSize="18sp"
+            app:backgroundTint="#00FFFFFF"
+            app:backgroundTintMode="add"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/greentea"
+            android:text="@string/green_tea"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textSize="18sp"
+            app:backgroundTint="#00FFFFFF"
+            app:backgroundTintMode="add"
+            android:onClick="startTimerGreen"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/oolong"
+            android:text="@string/oolong_tea"
+            android:textSize="18sp"
+            app:backgroundTint="#00FFFFFF"
+            android:onClick="startTimerOolong"
+            app:backgroundTintMode="add"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:background="@drawable/ripe"
+            android:text="@string/ripe_puerh"
+            android:textSize="18sp"
+            app:backgroundTint="#00FFFFFF"
+            app:backgroundTintMode="add"
+            android:onClick="startTimerRipePuEhr"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:background="@drawable/raw"
+            android:text="@string/raw_puerh"
+            android:textSize="18sp"
+            app:backgroundTint="#00FFFFFF"
+            app:backgroundTintMode="add"
+            android:onClick="startTimerRawPuEhr"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/white"
+            android:text="@string/white_tea"
+            android:textSize="18sp"
+            app:backgroundTint="#00FFFFFF"
+            app:backgroundTintMode="add"
+            android:onClick="startTimerWhite"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
